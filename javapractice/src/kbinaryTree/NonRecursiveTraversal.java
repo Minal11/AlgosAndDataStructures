@@ -7,7 +7,7 @@ import java.util.*;
  * @author Minal
  *
  */
-public class Test {
+public class NonRecursiveTraversal {
 
 	/**
 	 * @param args
