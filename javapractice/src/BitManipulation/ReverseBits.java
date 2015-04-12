@@ -15,13 +15,17 @@ public class ReverseBits {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		n=43261596;
+		n=3;
+		long num=3;
+		long maxInt=(long)Math.pow(2, 32)-1;
 		int r=0;
+		
 		for(int i=0;i<16;i++){
 			 r=swapbits(n,i,32-i-1);
 		}
 		System.out.println("ans="+r);
 		System.out.println("second answer"+reverseBits(n));
+		System.out.println(maxInt-num);
 	}
 
 	/**
