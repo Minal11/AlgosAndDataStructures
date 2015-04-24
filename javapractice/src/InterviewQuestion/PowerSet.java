@@ -9,7 +9,7 @@ import java.util.*;
  */
 public class PowerSet {
 
-	/**
+	/**vv
 	 * @param args
 	 */
 	public static void main(String[] args) {
