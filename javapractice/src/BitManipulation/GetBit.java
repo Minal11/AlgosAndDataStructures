@@ -19,7 +19,7 @@ public class GetBit {
 		
 	}
 	public static  void getbit(int n, int i){
-		System.out.println(n&(1<<i));
+		System.out.println(n&(1<<i)); // left shift 1 by ith position and and with n
 		
 	}
 
