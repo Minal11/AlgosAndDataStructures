@@ -15,7 +15,7 @@ public class UpperLowerCase {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String s="abcdefghijklmnopqrstuvwxyz";
+		String s="abc";
 		int len=s.length();
 		Set<String> unique=new HashSet<String>();
 		Queue queue=new LinkedList<String>();
