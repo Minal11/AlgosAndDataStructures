@@ -15,7 +15,7 @@ public class PascalTriangle {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt(); //Enter number of rows you the triangle
+		int n=sc.nextInt()+1; //Enter number of rows you the triangle
 		int[][] matrix=new int[n][n];
 		printMatrix(matrix,n);
 		for(int i=0;i<n;i++){
