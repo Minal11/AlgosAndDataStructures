@@ -12,13 +12,16 @@ package InterviewQuestion;
  */
 public class PermutationOfString {
 
+	
+	
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String s="minal";
+		String s="(){";
+		
 		
 		perm2(s);
 
@@ -36,6 +39,7 @@ public class PermutationOfString {
 	public static void perm2(char[] a,int n){
 		
 		if(n==1){
+			System.out.println("final");
 			System.out.println(a);
 			
 			
@@ -44,10 +48,14 @@ public class PermutationOfString {
 		for(int i=0;i<n;i++){
 			
 			swap(a,i,n-1);
+			System.out.println("swap1"+n);
+			System.out.println(a);
 			
 			perm2(a,n-1);
 			
 			swap(a,i,n-1);
+			System.out.println("swap2"+n);
+			System.out.println(a);
 			
 			
 		}
