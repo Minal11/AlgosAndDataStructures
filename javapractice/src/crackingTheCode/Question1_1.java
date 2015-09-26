@@ -24,19 +24,19 @@ public class Question1_1 {
 	}
 	//it will take n2 time
 	public static void method1(){
-		String str="abcdefghijklmnopqrstuvwxyz";
+		String str="aaabbb";
 		
 		for(int i=0;i<=str.length()/2;i++){
 			for(int j=(str.length()/2)+1;j<str.length();j++){
 				
 				if(str.charAt(i)==str.charAt(j)){
-					System.out.println("not unique");
+					System.out.println("not unique ----"+str.charAt(i)+str.charAt(j)+i+j);
 					System.exit(1);
 				}
 				//System.out.println("exe");
 			}
 		}
-		System.out.println("its unique");
+		System.out.println("its unique"); //wrong what if aaabbbb
 	}
 
 	//o(n) time

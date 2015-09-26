@@ -12,7 +12,9 @@ import java.util.Arrays;
  */
 public class Question1_2 {
 
-	/**
+	/**dlroW olleh
+[Hi, I'm, is, minal]
+minal is I'm Hi 
 	 * @param args
 	 */
 	public static void main(String[] args) {
